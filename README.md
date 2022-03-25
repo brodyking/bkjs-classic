@@ -67,7 +67,7 @@ To update the navigation bar, go into the script.js file and change the contents
 
 - [x] Create Github Repo
   - [x] Create readme file explaining site
-- [ ] Add Assets Directory Viewer
+- [x] Add Assets Directory Viewer
 - [ ] Add Custom 404 Page
 - [ ] Add Favicons to all pages
 
