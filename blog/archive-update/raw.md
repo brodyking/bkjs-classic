@@ -1,0 +1,2 @@
+# What happened to archive.bkjs.us?
+Recently, the site went offline from the internet. Not in the way you would think though... If you visited the site anyime in the last 4-5 days you would notice you would recieve a 'welcome to nginx' screen. This is because my drive that I store the websites contents on got unplugged, and i never fixed it. The site should be back online now. You can check now if you feel wanna check.

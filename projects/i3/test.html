@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>i3 (bkjs)</title>
+        <link href="../../style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="container navbar navbar-light navbar-expand-sm">
+            <span class="navbar-brand">
+                <a href="../../homepage/">
+                    bkjs
+                </a>
+            </span>
+            <ul class="navbar-nav"></ul>
+            <div class="login">
+                <span class="navbar-text" id="nav2">
+                    PLEASE ENABLE JAVASCRIPT
+                </span>
+            </div>
+        </nav>
+        <div class="header-tabbed">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <h2>
+                        i3
+                    </h2>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">readme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="config">download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-extension">
+            <div class="container">Last updated on <a href="#">3/23/2022</a> by <a href="#">admin</a>.</div>
+            </div>
+        <div class="container">
+            <div class="content"></div>
+        </div>
+        <div class="container">
+            <div class="event-list row">
+                <div class="event toc col-md-12">
+                    <h3>Table of Contents</h3>
+                    <ol>
+                        <li>
+                            <a href="#introduction">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#installing-i3-gaps">Installing i3-gaps</a>
+                        </li>
+                        <li>
+                            <a href="#using-i3-gaps">Using i3-gaps</a>
+                        </li>
+                        <li>
+                            <a href="#using-i3-gaps">Ricing</a>
+                            <ol>
+                              <li><a href="#bumblebee-status">Bumblebee Status</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="flex-grow: 1;">
+            <div class="content">
+                <style>
+                    .highlight {
+                        background: inherit;
+                    }
+                </style>
+                <div class="markdown">
+                    <h3 id="introduction"><a href="#introduction" rel="nofollow noopener">#</a>Introduction</h3>
+                    <p>
+                      This project is a guide on how to get your i3-gaps to look like mine.
+                      This guide expects you to be using Ubuntu 21.10 with GNOME installed.
+                    </p>
+
+                    <h3 id="installing-i3-gaps"><a href="#installing-i3-gaps" rel="nofollow noopener">#</a>Installing i3-gaps</h3>
+                    <p>
+                      Installing i3 gaps is a very easy process. Simply type the following into the terminal. 
+                      <br><br><code> sudo add-apt-repository ppa:regolith-linux/release <br> 
+                      sudo apt update<br>
+                      sudo apt install i3-gaps</code><br><br>
+                      After that, logout and when logging back in, pick i3 as your DE. <br><br>
+                      <img src='1.jpg'>
+                    </p>
+
+                    <h3 id="installing-i3-gaps"><a href="#using-i3-gaps" rel="nofollow noopener">#</a>Using i3-gaps</h3>
+                    <p>
+                      i3-gaps is a fork of i3. So the best place to look for documentation is to look online for i3 tutorials.
+                      There are many great resources out there to learn i3. Here are some basic commands to get you started.<br><br>
+                      <code>Mod + Enter</code> = Creates a terminal window,<br>
+                      <code>Mod + D</code> = Opens dmenu, a program launcher made by suckless,<br>
+                      <code>Mod + Shift + Q</code> = Close the current window,<br>
+                      <code>Mod + Arrow Keys</code> = Move to window next to currently selected window,<br>
+                      <code>Mod + Number Keys</code> = Move to a different workspace,<br>
+                      <code>Mod + Shift + Number Keys</code> = Move currently selected window to a different workspace,<br>
+                      <code>Mod + Shift + Arrow Keys</code> = Move currently selected window around,<br>
+                    </p>
+
+                    <h3 id="ricing"><a href="#ricing" rel="nofollow noopener">#</a>Ricing</h3>
+                    <p>
+                      Ricing is when you customize your window manager or DE.
+                      We will install a few things to make our i3 look better.
+                    
+                        <h4 id="bumblebee-status"><a href="#bumblebee-status" rel="nofollow noopener">#</a>Bumblee Status</h3>
+                        Bumblebee status is a program that replaces the status bar at the bottom right.
+                        We will need pip (pythons package manager)  to install it.
+                        Type this into the terminal to install pip.<br>
+                        <br>
+                        <code>sudo apt-get install python3-pip</code><br>
+                        <br>
+                        After this, we can install bumblebee-status.<br>
+                        <br>
+                        <code>sudo pip install --user bumblebee-status</code><br>
+                        <br>
+                        Run the command again and it should tell you where it is stored. Write this down for later. Lets get to setting it up.<br>
+                        <br>
+                        Head into the i3 config with this command.<br>
+                        <br>
+                        <code>nano ~/.config/i3/config</code><br>
+                        <br>
+                        Press <code>Ctrl + Shift + Minus</code> , then <code>Ctrl + V</code>. This will bring us to the bottom of the file.
+                        You should see a element that looks somthing like this:<br>
+                        <br>
+                        <code>bar {<br>
+                        status_command i3status<br>
+                        }</code><br>
+                        <br>
+                        We want to change this to be our bumblebee-status bar. Set everything to how it is in this screenshot, including the tabbing.
+                        Remember to replace my bumblebee install path with your own.<br>
+                    </p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+       <script src='../../script.js'></script>
+    </body>
+</html>
+
