@@ -60,6 +60,8 @@ For nested pages, `bkjs.us/prev-directory/page-title/` make sure you change all 
 ### Updating Navigation Bar
 To update the navigation bar, go into the script.js file and change the contents for 'nav' and 'nav2'. Nav2 is for nested pages while the default nav is for root pages.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -67,6 +69,7 @@ To update the navigation bar, go into the script.js file and change the contents
   - [x] Create readme file explaining site
 - [ ] Add Assets Directory Viewer
 - [ ] Add Custom 404 Page
+- [ ] Add Favicons to all pages
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
