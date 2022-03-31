@@ -31,9 +31,9 @@ I have had many websites in the past, but this one is the most organized and wel
 
 I created this website with the most basic of tools so that anyone can see the source code and I can edit it with ease.
 <ul>
-<li><a href='https://nextjs.org/](https://developer.mozilla.org/en-US/docs/Web/HTML'>HTML</a></li>
-<li><a href='https://reactjs.org/](https://developer.mozilla.org/en-US/docs/Web/CSS'>CSS</a></li>
-<li><a href='https://vuejs.org/](https://developer.mozilla.org/en-US/docs/Web/Javascript'>CJS</a></li>
+<li><a href='https://developer.mozilla.org/en-US/docs/Web/HTML'>HTML</a></li>
+<li><a href='https://developer.mozilla.org/en-US/docs/Web/CSS'>CSS</a></li>
+<li><a href='https://developer.mozilla.org/en-US/docs/Web/Javascript'>JS</a></li>
 </ul>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
