@@ -70,3 +70,17 @@ function newtabDraculaToggle() {
   }
   location.reload();
 }
+
+// This is the search box submitting for google
+function searchSubmit() { // terminal command subbmitted
+  document.getElementById('search').addEventListener('keydown', (evt) => { // starts a listener
+    if (evt.keyCode === 13) { // if enter key pressed
+      evt.preventDefault();
+      window.location.href = "https://www.google.com/search?q=" + document.getElementById('search').value;
+    }
+  });
+}
+
+// This is resests the box and hovers on it
+document.getElementById('search').value = "";
+document.getElementById('search').select();
