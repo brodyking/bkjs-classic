@@ -1,0 +1,489 @@
+@font-face {
+    font-family: blogtitle;
+    src: url(blogtitle.woff2);
+}
+@font-face {
+    font-family: bloglight;
+    src: url(bloglight.woff2);
+}
+
+body {
+    background-color: #16181d;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h2,h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #282c34;
+    width: 100%;
+}
+
+a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+cc {
+    max-width: 900px;
+    margin: auto;
+    display: block;
+}
+
+ccblog {
+    max-width: 640px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+ccblog h1 {
+    font-family: blogtitle;
+    font-size: 3em;
+    margin-top: 60px;
+}
+
+ccblog h2, ccblog h3 {
+    font-family: bloglight;
+    font-size: 2em;
+    border: 0px;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+ccblog p {
+    font-size: 20px;
+    font-family: bloglight;
+}
+
+ccblog ul li{
+    font-size: 20px;
+    font-family: bloglight;
+}
+
+blogdate {
+    display: block;
+    margin-bottom: 35px;
+}
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20232a;
+    font-size: 1em;
+
+}
+  
+nav ul li {
+    float: right;
+}
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover:not(.active) {
+    color: #61dafb;
+    border-bottom: 1px solid #61dafb;
+    text-decoration: none;
+}
+
+nav ul li .active:hover {
+    background-color: #111;
+    border-bottom: 1px solid #61dafb;
+    text-decoration: none;
+}
+  
+nav .active {
+    color: #61dafb;
+}
+
+banner {
+    display: block;
+    background-color: #282c34;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 4em;
+    background-image: url('banner.png');
+    background-size: cover;
+    background-position: 50%;
+}
+
+banner h1 {
+    font-size: 2.75em;
+    color: #61dafb;
+}
+
+blockgrid {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 10px;
+}
+
+block {
+    display: inline-block;
+    background-color: #282c34;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 11px;
+}
+
+block:hover {
+    border: 1px dashed white;
+}
+
+blockquote {
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: initial;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0 0 1rem;
+    padding-left: .5rem;
+    border-left: 3px solid #aaa;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+
+blogtitle {
+    display: block;
+    background-color: #282c34;
+}
+
+img {
+    width: 100%;
+    border: 1px solid white;
+}
+
+img:hover {
+    border: 1px dashed white;
+    border-radius: 0px;
+}
+
+.profileimg {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    top: 5px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    margin-top: 0px;
+    max-width: 100%;
+    border: none;
+}
+
+
+highlight, blue {
+    color: #61dafb;
+}
+
+green {
+    color: #8aff80;
+}
+
+lightgreen {
+    color: #d0ffcc;
+}
+
+orange {
+    color: #ffca80;
+}
+
+lightorange {
+    color: #ffeacc;
+}
+
+pink {
+    color: #ff80bf;
+}
+
+lightpink {
+    color: #ffcce6;
+}
+
+purple {
+    color: #9580ff;
+}
+
+lightpurple {
+    color: #d5ccff;
+}
+
+red {
+    color: #ff9580;
+}
+
+lightred {
+    color: #ffd5cc;
+}
+
+yellow {
+    color: #ffff80;
+}
+
+lightyellow {
+    color: #ffc;
+}
+
+grey {
+    color: grey;
+}
+
+lightgrey {
+    color: lightgrey;
+}
+
+
+
+.blue {
+    background-color: #61dafb;
+    color: black;
+}
+
+.blue:hover {
+    background-color: #337385;
+    color: black;
+}
+
+.green {
+    background-color: #8aff80;
+    color: black;
+}
+
+.green:hover {
+    background-color: #4b8b45;
+    color: black;
+}
+
+.lightgreen {
+    background-color: #d0ffcc;
+    color: black;
+}
+
+.lightgreen:hover {
+    background-color: #759173;
+    color: black;
+}
+
+.orange {
+    background-color: #ffca80;
+    color: black;
+}
+
+.orange:hover {
+    background-color: #917349;
+    color: black;
+}
+
+.lightorange {
+    background-color: #ffeacc;
+    color: black;
+}
+
+.lightorange:hover {
+    background-color: #8a7d6c;
+    color: black;
+}
+
+.pink {
+    background-color: #ff80bf;
+    color: black;
+}
+
+.pink:hover {
+    background-color: #8d4569;
+    color: black;
+}
+
+.lightpink {
+    background-color: #ffcce6;
+    color: black;
+}
+
+.lightpink:hover {
+    background-color: #947685;
+    color: black;
+}
+
+.purple {
+    background-color: #9580ff;
+    color: black;
+}
+
+.purple:hover {
+    background-color: #564994;
+    color: black;
+}
+
+.lightpurple {
+    background-color: #d5ccff;
+    color: black;
+}
+
+.lightpurple:hover {
+    background-color: #6e6985;
+    color: black;
+}
+
+.red {
+    background-color: #ff9580;
+    color: black;
+}
+
+.red:hover {
+    background-color: #8d5145;
+    color: black;
+}
+
+.lightred {
+    background-color: #ffd5cc;
+    color: black;
+}
+
+.lightred:hover {
+    background-color: #88706a;
+    color: black;
+}
+
+.yellow {
+    background-color: #ffff80;
+    color: black;
+}
+
+.yellow:hover {
+    background-color: #929248;
+    color: black;
+}
+
+.lightyellow {
+    background-color: #ffc;
+    color: black;
+}
+
+.lightyellow:hover {
+    background-color: #88886d
+    color: black;
+}
+
+.grey {
+    background-color: grey;
+    color: black;
+}
+
+.grey:hover {
+    background-color: rgb(73, 73, 73);
+    color: black;
+}
+
+.lightgrey {
+    background-color: lightgrey;
+    color: black;
+}
+
+.lightgrey:hover {
+    background-color: #696969;
+    color: black;
+}
+
+pre {
+    background-color: #20232a;
+    padding: 17px;
+    margin: 0;
+    border-radius: var(--rounded-md);
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    font-family: monospace;
+    color: #61dafb;
+    border: 1px solid white;
+}
+
+pre:hover {
+    border: 1px dashed white;
+}
+
+projectleft {
+    display: block;
+    width: 25%;
+    float: left;
+    margin-top: 1em;
+    padding-left: 15px;
+}
+
+projectright {
+    display: block;
+    width: 70%;
+    float: right;
+    margin-top: 1em;
+}
+
+
+button {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+button:hover {
+    border: 1px dashed black;
+    background-color: #1e2027;
+    cursor: pointer;
+}
+
+projectleft button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+projectright h1 {
+    margin-top: 7px;
+}
+
+
+@media screen and (max-device-width:390px), screen and (max-width:425px){
+    projectleft {
+        width: 100%;
+        padding-left: 0px;
+    }
+    projectright {
+        width: 100%;
+    }
+    body {
+        zoom: 300%;
+    }
+    cc {
+        max-width:;
+    }
+    ccblog {
+        max-width: 100%;
+    }
+    blockgrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+}

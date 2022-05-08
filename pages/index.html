@@ -1,95 +1,45 @@
-<!DOCTYPE html>
-
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf8" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>Pages (bkjs)</title>
-        <link href="../style.css" rel="stylesheet" />
+        <title>pages [bkjs]</title>
+        <link rel="stylesheet" href="../assets/style.css">
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
     </head>
     <body>
-        <nav class="container navbar navbar-light navbar-expand-sm">
-            <span class="navbar-brand">
-                <a href="../homepage/">
-                    bkjs
-                </a>
-            </span>
-            <ul class="navbar-nav"></ul>
-            <div class="login">
-                <span class="navbar-text" id="nav">
-                    PLEASE ENABLE JAVASCRIPT
-                </span>
-            </div>
+        <nav id="nav">
+            please enable javascript. without js enabled, you will not be able to see this navigation bar or other important elements.
         </nav>
-        <div class="container">
-            <div class="row" style="margin-top: 1rem;">
-                <div class="col-md-12">
-                    <h3>All Pages</h3>
-                    <div class="event-list feature-list">
-                        <div class="event">
-                            <h5><span class="text-muted">/</span><a href="../pages/">pages</a><span class="text-muted">/</span><a href="404/">404</a><span class="text-muted">/</span></h5>
-                            <blockquote>
-                                <style>
-                                    .highlight {
-                                        background: inherit;
-                                    }
-                                </style>
-                                <div class="markdown"><p>A 404 Page that is not currently being used.</p></div>
-                            </blockquote>
-                            <div class="tags">
-                                <a class="tag">Last updated 3/22/2022</a>
-                            </div>
-                        </div>
-                        
-                        <div class="event">
-                            <h5><span class="text-muted">/</span><a href="../pages/">pages</a><span class="text-muted">/</span><a href="contact/">contact</a><span class="text-muted">/</span></h5>
-                            <blockquote>
-                                <style>
-                                    .highlight {
-                                        background: inherit;
-                                    }
-                                </style>
-                                <div class="markdown"><p>Places to reach out to me</p></div>
-                            </blockquote>
-                            <div class="tags">
-                                <a class="tag">Last updated 3/25/2022</a>
-                            </div>
-                        </div>
-                      
-                        <div class="event">
-                            <h5><span class="text-muted">/</span><a href="../pages/">pages</a><span class="text-muted">/</span><a href="deprecated/">deprecated</a><span class="text-muted">/</span></h5>
-                            <blockquote>
-                                <style>
-                                    .highlight {
-                                        background: inherit;
-                                    }
-                                </style>
-                                <div class="markdown"><p>List of discontinued projects</p></div>
-                            </blockquote>
-                            <div class="tags">
-                                <a class="tag">Last updated 3/25/2022</a>
-                            </div>
-                        </div>
-
-                        <div class="event">
-                            <h5><span class="text-muted">/</span><a href="../pages/">pages</a><span class="text-muted">/</span><a href="newtab/">newtab</a><span class="text-muted">/</span></h5>
-                            <blockquote>
-                                <style>
-                                    .highlight {
-                                        background: inherit;
-                                    }
-                                </style>
-                                <div class="markdown"><p>A custom newtab page I like to use</p></div>
-                            </blockquote>
-                            <div class="tags">
-                                <a class="tag">Last updated 3/23/2022</a>
-                            </div>
-                        </div>
-                      
-                </div>
-            </div>
-        </div>
-        <script src="../script.js"></script>
+        <banner>
+            <h1>pages</h1>
+            a list of all the one-off pages on my website
+        </banner>
+        <cc>
+            <h2>all pages</h2>
+            <blockgrid>
+                <block >
+                    /<a href="../pages">pages</a>/<a href="404/">404</a>/<br>
+                    <blockquote>a 404 Page this is not currently being used</blockquote>
+                    last updated 3/22/2022
+                </block>
+                <block >
+                    /<a href="../pages">pages</a>/<a href="contact/">contact</a>/<br>
+                    <blockquote>places to reach out to me</blockquote>
+                    last updated 3/25/2022
+                </block>
+                <block >
+                    /<a href="../pages">pages</a>/<a href="deprecated/">deprecated</a>/<br>
+                    <blockquote>list of discontinued projects</blockquote>
+                    last updated 3/25/2022
+                </block>
+                <block >
+                    /<a href="../pages">pages</a>/<a href="newtab/">newtab</a>/<br>
+                    <blockquote>a custom newtab page I like to use</blockquote>
+                    last updated 3/25/2022
+                </block>
+            </blockgrid>
+        </cc>
+        <script>
+            var dirLevel = 1;
+        </script>
+        <script src="../assets/script.js"></script>
     </body>
-</html> 
-
+</html>

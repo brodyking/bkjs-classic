@@ -1,98 +1,43 @@
-<!DOCTYPE html>
-
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf8" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <title>NewTab Search (bkjs)</title>
-        <link href="../../style.css" rel="stylesheet" />
+        <title>NewTab Search [bkjs]</title>
+        <link rel="stylesheet" href="../../assets/style.css">
+        <link rel="icon" type="image/x-icon" href="../../assets/favicon.png">
     </head>
     <body>
-        <nav class="container navbar navbar-light navbar-expand-sm">
-            <span class="navbar-brand">
-                <a href="../../homepage/">
-                    bkjs
-                </a>
-            </span>
-            <ul class="navbar-nav"></ul>
-            <div class="login">
-                <span class="navbar-text" id="nav2">
-                    PLEASE ENABLE JAVASCRIPT
-                </span>
-            </div>
+        <nav id="nav">
+            please enable javascript. without js enabled, you will not be able to see this navigation bar or other important elements.
         </nav>
-        <div class="header-tabbed">
-            <div class="container">
-                <ul class="nav nav-tabs">
-                    <h2>
-                        NewTab Search
-                    </h2>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">article</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="raw.md">raw <span aria-hidden="true" class="icon icon-external-link-alt"><svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"></path></svg>
-</span></a>
-</li>
-                </ul>
-            </div>
-        </div>
-        <div class="header-extension">
-            <div class="container">Article published on <a href="#">4/10/2022</a> by <a href="#">admin</a>.</div>
-            </div>
-        <div class="container">
-            <div class="content"></div>
-        </div>
-        <div class="container">
-            <div class="event-list row">
-                <div class="event toc col-md-12">
-                    <h3>Table of Contents</h3>
-                    <ol>
-                        <li>
-                            <a href="#newtab-changes">NewTab Changes</a>
-                        </li>
-                        <li>
-                            <a href="#what-is-bprog">What is bprog?</a>
-                        </li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-        <div class="container" style="flex-grow: 1;">
-            <div class="content">
-                <style>
-                    .highlight {
-                        background: inherit;
-                    }
-                </style>
-                <div class="markdown">
-                    <h3 id="newtab-changes"><a href="#newtab-changes" rel="nofollow noopener">#</a>NewTab Changes</h3>
-                    <p>
-                      I changed the newtab pages to have a search box. Before I tried this but I was lazy and was using the default google custom search engine or whatever.
-                      It was really bad and I gave up at the time. Until today!<br>
-                      <br>
-                      I learned that all a google search is, is a URL you visit. Say I googled:
-                      <br><br> 
-                      <code>Why is my dog dead</code>
-                      <br><br> 
-                      it would redirect me to 
-                      <br><br> 
-                      <code>https://google.com/search?=why-is-my-dog-dead</code> 
-                      <br><br>
-                      So I just made a input box that goes to that URL with your search added to the end of it. 
-                      I also made it autoselect so you can just start typing when you are on the page.
-                    </p>
+        <ccblog>            
+            <h1><green>NewTab Search</green></h1>
+            <blogdate><img src='../../assets/profile.png' class="profileimg"> Brody King <lightgrey>/</lightgrey> April 13, 2022</blogdate>
+                <p>
+                  I changed the newtab pages to have a search box. Before I tried this but I was lazy and was using the default google custom search engine or whatever.
+                  It was really bad and I gave up at the time. Until today!
+                </p>
+                <p>
+                  I learned that all a google search is, is a URL you visit. Say I googled:
+                </p>
+                <pre>Why is my dog dead</pre>
+                <p>
+                  it would redirect me to 
+                </p>
+                <pre>https://google.com/search?=why-is-my-dog-dead</pre>
+                <p>
+                  So I just made a input box that goes to that URL with your search added to the end of it. 
+                  I also made it autoselect so you can just start typing when you are on the page.
+                </p>
 
-                    <h3 id="what-is-bprog"><a href="#what-is-bprog" rel="nofollow noopener">#</a>What is bprog?</h3>
-                    <p>
-                      bprog is a project I started last week and felt really motivated to work on but I kinda lost interest.
-                      I will keep it on the website for now but I dont know if I will keep working on it.
-                    </p>
-                </div>
-                <div class="col-md-4"></div>
+                <h3>What is bprog?</h3>
+                <p>
+                  bprog is a project I started last week and felt really motivated to work on but I kinda lost interest.
+                  I will keep it on the website for now but I dont know if I will keep working on it.
+                </p>
             </div>
-        </div>
-       <script src='../../script.js'></script>
+        </ccblog>
+        <script>
+            var dirLevel = 2;
+        </script>
+        <script src="../../assets/script.js"></script>
     </body>
 </html>
-
