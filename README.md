@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="assets/readme/favicon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/brodyking/bkjs/raw/old/assets/readme/favicon.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">bkjs.us</h3>
 
