@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/readme/screenshot.png" alt="Screenshot" width="100%">
+<img src="https://github.com/brodyking/bkjs/raw/old/assets/readme/screenshot.png" alt="Screenshot" width="100%">
 
 I created this website as a easy way to see all of my projects along with blog posts about updates with those projects.
 I have had many websites in the past, but this one is the most organized and well looking.
