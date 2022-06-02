@@ -66,6 +66,11 @@ ccblog ul li{
     font-family: bloglight;
 }
 
+ccblog ol li{
+    font-size: 20px;
+    font-family: bloglight;
+}
+
 blogdate {
     display: block;
     margin-bottom: 35px;
@@ -175,10 +180,6 @@ img {
     border: 1px solid white;
 }
 
-img:hover {
-    border: 1px dashed white;
-    border-radius: 0px;
-}
 
 .profileimg {
     margin: 0;
@@ -197,7 +198,7 @@ img:hover {
 }
 
 
-highlight, blue {
+ blue {
     color: #61dafb;
 }
 
@@ -233,8 +234,8 @@ lightpurple {
     color: #d5ccff;
 }
 
-red {
-    color: #ff9580;
+red,highlight {
+    color: #FC716F;
 }
 
 lightred {
@@ -418,7 +419,7 @@ pre {
     overflow-wrap: break-word;
     font-size: 16px;
     font-family: monospace;
-    color: #61dafb;
+    color: #FC716F;
     border: 1px solid white;
 }
 
