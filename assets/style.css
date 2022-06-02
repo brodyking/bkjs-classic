@@ -467,22 +467,6 @@ projectright h1 {
 
 
 @media screen and (max-device-width:390px), screen and (max-width:425px){
-    projectleft {
-        width: 100%;
-        padding-left: 0px;
-    }
-    projectright {
-        width: 100%;
-    }
-    body {
-        zoom: 300%;
-    }
-    cc {
-        max-width:;
-    }
-    ccblog {
-        max-width: 100%;
-    }
     blockgrid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
