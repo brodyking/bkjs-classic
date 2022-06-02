@@ -21,7 +21,7 @@ h2,h3 {
 }
 
 a {
-    color: #61dafb;
+    color: #FC716F;
     text-decoration: none;
 }
 
@@ -99,19 +99,19 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover:not(.active) {
-    color: #61dafb;
-    border-bottom: 1px solid #61dafb;
+    color: #FC716F;
+    border-bottom: 1px solid #FC716F;
     text-decoration: none;
 }
 
 nav ul li .active:hover {
     background-color: #111;
-    border-bottom: 1px solid #61dafb;
+    border-bottom: 1px solid #FC716F;
     text-decoration: none;
 }
   
 nav .active {
-    color: #61dafb;
+    color: #FC716F;
 }
 
 banner {
@@ -128,7 +128,7 @@ banner {
 
 banner h1 {
     font-size: 2.75em;
-    color: #61dafb;
+    color: #FC716F;
 }
 
 blockgrid {
