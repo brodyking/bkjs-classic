@@ -77,8 +77,6 @@ blogdate {
 }
 
 nav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
 }
 
@@ -172,7 +170,7 @@ blockquote {
 
 blogtitle {
     display: block;
-    background-color: #282cs34;
+    background-color: #282c34;
 }
 
 img {
